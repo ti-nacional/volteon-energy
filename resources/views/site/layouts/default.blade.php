@@ -93,34 +93,29 @@
     <!--SLIDER END-->
 
      <!--SERVICES BOXES START-->
-    {{-- <div class="container energy-front-boxes">
+    <div >
         <div class="row">
-          <div class="col-md-4 col-lg-4 content-box">
+          <div class="col-md-4 col-lg-4 content-box" style="background-image: url('../../template/img/images/torres-1.png')">
             <a href="#" target="_blank">
-                <div class="icon-circle"><i class="fas fa-lightbulb"></i></div>
-                <h3>Light Innovation</h3>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                <p>Nós trabalhamos com eficiência
+                    energética, inovação e tecnologia.</p>
             </a>
-              <h5><a href="#">READ MORE</a></h5>
           </div>
-          <div class="col-md-4 col-lg-4 content-box middle-box">
+          <div class="col-md-4 col-lg-4 content-box middle-box" style="background-image: url('../../template/img/images/moinho.png')">
             <a href="#" target="_blank">
-                <div class="icon-circle"><i class="fas fa-shield-alt"></i></div>
-                <h3>Lifetime Support</h3>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                <p>Temos como missão aumentar a
+                    energia para o mercado.</p>
             </a>
-            <h5><a href="#">READ MORE</a></h5>
           </div>
-          <div class="col-md-4 col-lg-4 content-box">
+          <div class="col-md-4 col-lg-4 content-box" style="background-image: url('../../template/img/images/placas.png')">
             <a href="#" target="_blank">
-                <div class="icon-circle"><i class="fas fa-sun"></i></div>
-                <h3>Renewable Energy</h3>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                <p>Acreditamos na energia limpa e
+                    renovável  como via de
+                    competitividade para a indústria. </p>
             </a>
-            <h5><a href="#">READ MORE</a></h5>
           </div>
         </div>
-    </div> --}}
+    </div>
     <!--SERVICES BOXES END-->
 
     <!-- CONTENT START -->

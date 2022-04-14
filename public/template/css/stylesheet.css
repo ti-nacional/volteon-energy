@@ -1692,7 +1692,6 @@ a.active:after {
     background-color: #F6F6F6;
     height: 100%;
     padding: 40px 10px;
-    text-align: center;
     transition: 0.3s;
 }
 
@@ -1744,7 +1743,7 @@ a.active:after {
     margin-bottom: 0px;
 }
 
-.content-box a {
+/* .content-box a {
     text-decoration: none;
     position: relative;
     color: #FFA600;
@@ -1762,7 +1761,7 @@ a.active:after {
 
 .content-box a:hover{
     color: #002642;
-}
+} */
 
 /*====================================================
     15. TEAM.
@@ -5013,15 +5012,18 @@ p.active{
 
 .content-box{
     background-color: #F6F6F6;
-    height: 100%;
-    padding: 40px 10px;
-    text-align: center;
+    height: 306px;
+    padding: 40px;
     transition: 0.3s;
+    display: flex;
+    align-items: center;
 }
 
 .content-box p{
-    font-size: 14px;
+    font-size: .8rem;
     line-height: 1.8;
+    color: #fff;
+    font-weight: bold ;
     margin-bottom: 15px;
 }
 
