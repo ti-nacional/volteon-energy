@@ -12,10 +12,8 @@ body{
 /* ========== NAVBAR. ========== */
 .main-nav{
     padding: 15px 0px 8px;
-    background-color: #FFF;
-    -webkit-box-shadow: 0 4px 4px -6px #333;
-	   -moz-box-shadow: 0 4px 4px -6px #333;
-	        box-shadow: 0 4px 4px -6px #333;
+    background-color: #05122F;
+
 }
 
 .main-nav .container{
@@ -26,7 +24,7 @@ body{
   transition: 0.4s;
   position: fixed;
   width: 100%;
-  top: 50px;
+  top: 0px;
 
 }
 
@@ -115,8 +113,16 @@ body{
 }
 
 .nav-header {
-  float: left;
-  margin-top: -3px;
+    display: flex;
+    align-items: center;
+}
+.nav-header ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.nav-header ul li{
+    padding-inline: 10px;
 }
 
 .navigation-hidden .nav-header {
@@ -288,7 +294,7 @@ body{
 }
 
 .navigation-fixed-wrapper.fixed .nav-menu > li > a{
-    color: #333; 
+    color: #333;
     font-weight: 400;
     padding: 28px 15px;
 }
@@ -1054,7 +1060,7 @@ body{
 body{
 	padding: 0;
 }
-	
+
 .navigation {
   width: 100%;
 }
@@ -1062,16 +1068,16 @@ body{
 .top-nav{
 	display: none;
 }
-	
+
 .nav-menu > li > a {
   font-size: 14px;
   color: #808080;
 }
-    
+
 .submenu-indicator-chevron {
   border-color: transparent #808080 #808080 transparent;
 }
-	
+
 }
 
 .nav-menus-wrapper{
@@ -1134,29 +1140,29 @@ body{
 }
 
 
-@media (max-width:992px) { 
+@media (max-width:992px) {
 
 #navbar {
   top: 0px;
 }
-    
+
 #navbar .container{
   padding: 0px;
 }
-    
+
 .main-nav{
     height: 70px;
 }
-    
+
 }
 
-@media (max-width:767px) { 
+@media (max-width:767px) {
 
 .navigation-fixed-wrapper.fixed .nav-menu > li > a{
     padding: 12px 26px;
     color: #808080;
 }
-    
+
 }
 
 @media screen and (max-width: 580px) {

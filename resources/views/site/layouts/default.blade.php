@@ -49,32 +49,33 @@
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner" role="listbox">
               <!-- Slide One - Set the background image for this slide in the line below -->
-              <div class="carousel-item active" style="background-image: url('https://via.placeholder.com//1920x1080')">
+              <div class="carousel-item active" style="background-image: url('../../template/img/images/banner-1.png')">
                 <div class="container">
                     <div class="slider-caption slider-caption-alt">
-                        <h2 class="display-4 animated fadeInRight">Creating <br><span>Renewable Energy</span></h2>
-                        <p class="lead animated fadeInRight">Indusy has met the demands of a growing world for development and implementation.</p>
-                        <div class="btn-more"><a class="btn btn-slider" href="#" role="button">Learn More</a></div>
+                        <h2 class=" animated fadeInRight">LMG energia agora
+                            <br><span>É Volteon Energia</span></h2>
+                        <p class="lead animated fadeInRight">A energia limpa é a tônica do futuro e a oportunidade que todos precisam.</p>
                     </div>
                 </div>
               </div>
               <!-- Slide Two - Set the background image for this slide in the line below -->
-              <div class="carousel-item" style="background-image: url('https://via.placeholder.com//1920x1080')">
+              <div class="carousel-item" style="background-image: url('../../template/img/images/banner-2.png')">
                 <div class="container">
                     <div class="slider-caption slider-caption-alt">
-                        <h2 class="display-4 animated fadeInRight">Powering The<br> <span>Modern Energy</span></h2>
-                        <p class="lead animated fadeInRight">Indusy has met the demands of a growing world for development and implementation.</p>
-                        <div class="btn-more"><a class="btn btn-slider" href="#" role="button">Learn More</a></div>
+                        <h2 class=" animated fadeInRight">Potencial energético
+                            <br> <span>para o futuro da indústria.</span></h2>
+                        <p class="lead animated fadeInRight">A energia limpa é a tônica do futuro e a oportunidade que todos precisam.</p>
+
                     </div>
                 </div>
               </div>
               <!-- Slide Three - Set the background image for this slide in the line below -->
-              <div class="carousel-item" style="background-image: url('https://via.placeholder.com//1920x1080')">
+              <div class="carousel-item" style="background-image: url('../../template/img/images/banner-3.png')">
                 <div class="container">
                     <div class="slider-caption slider-caption-alt">
-                        <h2 class="display-4 animated fadeInRight">Creating <br><span>a Brighter Future</span></h2>
-                        <p class="lead animated fadeInRight">Indusy has met the demands of a growing world for development and implementation.</p>
-                        <div class="btn-more"><a class="btn btn-slider" href="#" role="button">Learn More</a></div>
+                        <h2 class=" animated fadeInRight">LMG energia agora
+                            <br><span>É Volteon Energia</span></h2>
+                        <p class="lead animated fadeInRight">A energia limpa é a tônica do futuro e a oportunidade que todos precisam.</p>
                     </div>
                 </div>
               </div>
@@ -92,7 +93,7 @@
     <!--SLIDER END-->
 
      <!--SERVICES BOXES START-->
-    <div class="container energy-front-boxes">
+    {{-- <div class="container energy-front-boxes">
         <div class="row">
           <div class="col-md-4 col-lg-4 content-box">
             <a href="#" target="_blank">
@@ -119,7 +120,7 @@
             <h5><a href="#">READ MORE</a></h5>
           </div>
         </div>
-    </div>
+    </div> --}}
     <!--SERVICES BOXES END-->
 
     <!-- CONTENT START -->
