@@ -191,13 +191,39 @@
     </section>
     <!-- HOME ABOUT END -->
 
-    <!-- WHY US SECTION START -->
-
-    <!-- WHY US SECTION END -->
-
-    <!-- TESTIMONIALS START -->
-
-    <!-- TESTIMONIALS END -->
+    <section>
+        <div class="row">
+            <div class="col-lg-6">
+                <img class="img-fluid" src={{asset('template/img/images/eletro.png')}} alt="">
+            </div>
+            <div class="col-lg-6 mt-5">
+                <div class="home-about span-ha">
+                    <div class="ha-title">
+                    <h5>Panorama geral</h5>
+                    <h2 class="text-dark">
+                        Inovação no setor tecnológico
+                    </h2>
+                    <p class="text-dark">O setor elétrico passa por uma transformação, com crescente verticalização, ou
+                        seja, grupos estão atuando em diversas frentes: distribuição, geração,
+                        transmissão e comercialização. Nesse contexto, as geradoras estão fortalecendo
+                        seus braços de comercialização com fontes renováveis, uma tendência global.</p>
+                        <ul class="major-panorama__ul">
+                            <li>
+                                <p>  A energia solar no Brasil cresceu mais de 212%, alcançando a marca de 2,4
+                                    GIGAWATT instalados (ANEEL);</p>
+                            </li>
+                            <li>
+                                <p>
+                                    O Índice de Commodities do Banco Central (IC-BR), no que se refere a energia,
+  registrou uma alta de 73,89% no IC-BR em 2021.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- PRICING TABLE START -->
     <section>

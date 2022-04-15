@@ -4555,11 +4555,12 @@ img.mfp-img {
 .ha-title h5{
     color: #FFA600;
     margin-bottom: 10px;
+    line-height:.2rem
 }
 
-.ha-title h2{
+/* .ha-title h2{
     margin-left: 20px;
-}
+} */
 
 .home-about p.strong{
     font-weight: 500;
@@ -4573,6 +4574,11 @@ img.mfp-img {
     line-height: 2.3rem;
     font-weight: 500;
 }
+.home-about h2{
+    line-height: 2.3rem;
+    font-weight: 400;
+}
+
 .home-about-pic img{
     width: 100%;
 }
@@ -5441,9 +5447,9 @@ hr.divider-alt{
     text-decoration: none;
 }
 
-.span-ha{
+/* .span-ha{
     margin-top: -2rem;
-}
+} */
 
 /*====================================================
     44. HOME OIL AND GAS.
