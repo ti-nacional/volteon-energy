@@ -4549,14 +4549,11 @@ img.mfp-img {
 }
 
 .ha-title{
-    width: 100%;
     margin-bottom: 1.5rem;
-    border-left: solid 6px #FFA600;
 }
 
 .ha-title h5{
-    color: #8C8C9E;
-    margin-left: 20px;
+    color: #FFA600;
     margin-bottom: 10px;
 }
 
@@ -4569,7 +4566,13 @@ img.mfp-img {
     color: #333;
     margin-bottom: 1rem;
 }
-
+.strong{
+    font-weight: 600;
+}
+.home-about h1{
+    line-height: 2.3rem;
+    font-weight: 500;
+}
 .home-about-pic img{
     width: 100%;
 }
