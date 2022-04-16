@@ -309,6 +309,42 @@
 
 
     </section>
+    <section class="projects">
+        <div class="mt-5 container">
+            <div class="section-title">
+                <h2 class="text-white">Projetos</h2>
+                <p class="text-white">Volteon energia trabalha com sistemas fotovoltaicos, geração de energia segurada e <br>
+                    continuada com qualidade, eficiência e livre de combustível fóssil. Nossa principal motivação é a energia limpa e renovável.</p>
+        </div>
+        <div class="row justify-content-between">
+            <div class="col-lg-4 mt-2">
+                <img class="img-fluid" src={{asset('template/img/images/p-1.png')}} alt="">
+            </div>
+            <div class="col-lg-4 mt-2">
+                <img class="img-fluid" src={{asset('template/img/images/p-2.png')}} alt="">
+            </div>
+            <div class="col-lg-4 mt-2">
+                <img class="img-fluid" src={{asset('template/img/images/p-3.png')}} alt="">
+            </div>
+            <div class="col-lg-4 mt-2">
+                <img class="img-fluid" src={{asset('template/img/images/p-4.png')}} alt="">
+            </div>
+            <div class="col-lg-4 mt-2">
+                <img class="img-fluid" src={{asset('template/img/images/p-5.png')}} alt="">
+            </div>
+            <div class="col-lg-4 mt-2">
+                <img class="img-fluid" src={{asset('template/img/images/p-6.png')}} alt="">
+            </div>
+            <div class="col-12 d-flex justify-content-center mt-4">
+                <a class="projects-btn__know btn-warning text-white"href="">Saiba mais</a>
+            </div>
+        </div>
+        </div>
+        <!-- PRICING TABLE END -->
+
+
+    </section>
+
     <!-- CONTENT START -->
 
     <!-- FOOTER START -->

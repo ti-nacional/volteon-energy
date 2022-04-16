@@ -25,3 +25,14 @@
     margin-top: 16px;
     text-align: center;
 }
+.projects{
+    background-image: url(../../template/img/images/banner-projects.png)
+}
+
+.projects-btn__know{
+    background-color: #FFA600;
+    font-family: 'Poppins', sans-serif;
+    padding: .2rem 1rem;
+    font-size: 12px;
+
+}
