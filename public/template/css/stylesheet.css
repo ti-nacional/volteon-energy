@@ -4578,6 +4578,10 @@ img.mfp-img {
     line-height: 2.3rem;
     font-weight: 400;
 }
+.home-about h3{
+    line-height: 1.6rem;
+    font-weight: 400;
+}
 
 .home-about-pic img{
     width: 100%;

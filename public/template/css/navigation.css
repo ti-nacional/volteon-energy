@@ -115,6 +115,7 @@ body{
 .nav-header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .nav-header ul {
     list-style-type: none;

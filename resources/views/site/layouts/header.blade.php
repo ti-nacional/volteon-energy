@@ -7,20 +7,37 @@
                     <a class="nav-logo" href="index.html">
                         <img src={{asset('template/img/images/logo.svg')}}  class="white-logo" alt="">
                     </a>
-                        <ul class="mb-0">
+                        <ul class="mb-0 lg-header">
                             <li>
-                                <a href="">Home</a>
+                                <a class="header-nav__a" href="">Home</a>
                             </li>
-                        <ul>
+
                             <li>
-                                <a href="">Sobre nós</a>
+                                <a class="header-nav__a" href="">Sobre nós</a>
                             </li>
-                        <ul>
+
                             <li>
-                                <a href="">Serviços</a>
+                                <a class="header-nav__a" href="">Serviços</a>
                             </li>
                             <li>
-                                <a href="">Contato</a>
+                                <a class="header-nav__a" href="">Contato</a>
+                            </li>
+                        </ul>
+                        <ul class="header-nav__socials mb-0">
+                            <li>
+                                <a href="">
+                                    <img src={{asset('template/img/images/facebook.svg')}} alt="Ins">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src={{asset('template/img/images/linkedin.svg')}} alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src={{asset('template/img/images/insta.svg')}} alt="">
+                                </a>
                             </li>
                         </ul>
                 </div>

@@ -683,6 +683,13 @@ sp-space-break{
     .content-box{
         width: 96.5%;
     }
+    .lg-header{
+        display: none !important;
+    }
+    .about-grid__icons{
+        justify-content: left !important;
+        margin-block: 1rem;
+    }
 .fb-copyright{
     float: none;
     margin-bottom: 10px;

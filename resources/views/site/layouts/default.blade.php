@@ -10,6 +10,9 @@
     <title>Indusy - Industrial & Factory Solutions HTML Template</title>
 
     <!-- META TAGS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
     <meta name="keywords"
         content="agricultural, business, chemical, construction, energy, engineering, gas, industrial, industries, manufacturing, material, mechanical, oil, petroleum">
 
@@ -105,8 +108,7 @@
     <!--SERVICES BOXES START-->
     <section>
         <div class="row">
-            <div class="col-lg-4 content-box"
-                style="background-image: url('../../template/img/images/torres-1.png')">
+            <div class="col-lg-4 content-box" style="background-image: url('../../template/img/images/torres-1.png')">
                 <a href="#" target="_blank">
                     <p>Nós trabalhamos com eficiência
                         energética, inovação e tecnologia.</p>
@@ -119,8 +121,7 @@
                         energia para o mercado.</p>
                 </a>
             </div>
-            <div class="col-lg-4 content-box"
-                style="background-image: url('../../template/img/images/placas.png')">
+            <div class="col-lg-4 content-box" style="background-image: url('../../template/img/images/placas.png')">
                 <a href="#" target="_blank">
                     <p>Acreditamos na energia limpa e
                         renovável como via de
@@ -168,20 +169,22 @@
             </div>
             <div class="row container">
                 <div class="col-lg-4">
-                    <div class="d-flex align-items-center justify-content-center">
+                    <div class="d-flex align-items-center about-grid__icons">
                         <img src={{ asset('template/img/images/engineer.svg') }} alt="Logo engenheiro">
                         <p class="text-dark strong pl-2">Engenheiros qualificados</p>
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="d-flex align-items-center justify-content-center">
-                        <img src={{ asset('template/img/images/shield.svg') }} alt="Logo Segurança">
+                    <div class="d-flex align-items-center about-grid__icons">
+                        <img width="59" height="59" src={{ asset('template/img/images/shield.svg') }}
+                            alt="Logo Segurança">
                         <p class="text-dark strong pl-2">Segurança</p>
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="d-flex align-items-center justify-content-center">
-                        <img src={{ asset('template/img/images/innovation.svg') }} alt="Logo Inovação">
+                    <div class="d-flex align-items-center about-grid__icons">
+                        <img width="59" height="59" src={{ asset('template/img/images/innovation.svg') }}
+                            alt="Logo Inovação">
                         <p class="text-dark strong pl-2">Inovação</p>
                     </div>
                 </div>
@@ -291,7 +294,7 @@
                 <div class="col-md-3 services-card d-flex align-items-center flex-column col-lg-2">
                     <img class="services-card__img" src={{ asset('template/img/images/aluguel.svg') }} alt="">
                     <p class="services-card__subtitle">Aluguel de<br> Equipamentos
-                        </p>
+                    </p>
                 </div>
                 <div class="col-md-3 services-card d-flex align-items-center flex-column col-lg-2">
                     <img class="services-card__img" src={{ asset('template/img/images/venda.svg') }} alt="">
@@ -313,36 +316,72 @@
         <div class="mt-5 container">
             <div class="section-title">
                 <h2 class="text-white">Projetos</h2>
-                <p class="text-white">Volteon energia trabalha com sistemas fotovoltaicos, geração de energia segurada e <br>
-                    continuada com qualidade, eficiência e livre de combustível fóssil. Nossa principal motivação é a energia limpa e renovável.</p>
-        </div>
-        <div class="row justify-content-between">
-            <div class="col-lg-4 mt-2">
-                <img class="img-fluid" src={{asset('template/img/images/p-1.png')}} alt="">
+                <p class="text-white">Volteon energia trabalha com sistemas fotovoltaicos, geração de energia
+                    segurada e <br>
+                    continuada com qualidade, eficiência e livre de combustível fóssil. Nossa principal motivação é a
+                    energia limpa e renovável.</p>
             </div>
-            <div class="col-lg-4 mt-2">
-                <img class="img-fluid" src={{asset('template/img/images/p-2.png')}} alt="">
+            <div class="row justify-content-between">
+                <div class="col-lg-4 mt-2">
+                    <img class="img-fluid" src={{ asset('template/img/images/p-1.png') }} alt="">
+                </div>
+                <div class="col-lg-4 mt-2">
+                    <img class="img-fluid" src={{ asset('template/img/images/p-2.png') }} alt="">
+                </div>
+                <div class="col-lg-4 mt-2">
+                    <img class="img-fluid" src={{ asset('template/img/images/p-3.png') }} alt="">
+                </div>
+                <div class="col-lg-4 mt-2">
+                    <img class="img-fluid" src={{ asset('template/img/images/p-4.png') }} alt="">
+                </div>
+                <div class="col-lg-4 mt-2">
+                    <img class="img-fluid" src={{ asset('template/img/images/p-5.png') }} alt="">
+                </div>
+                <div class="col-lg-4 mt-2">
+                    <img class="img-fluid" src={{ asset('template/img/images/p-6.png') }} alt="">
+                </div>
+                <div class="col-12 d-flex justify-content-center mt-4">
+                    <a class="projects-btn__know btn-warning text-white" href="">Saiba mais</a>
+                </div>
             </div>
-            <div class="col-lg-4 mt-2">
-                <img class="img-fluid" src={{asset('template/img/images/p-3.png')}} alt="">
-            </div>
-            <div class="col-lg-4 mt-2">
-                <img class="img-fluid" src={{asset('template/img/images/p-4.png')}} alt="">
-            </div>
-            <div class="col-lg-4 mt-2">
-                <img class="img-fluid" src={{asset('template/img/images/p-5.png')}} alt="">
-            </div>
-            <div class="col-lg-4 mt-2">
-                <img class="img-fluid" src={{asset('template/img/images/p-6.png')}} alt="">
-            </div>
-            <div class="col-12 d-flex justify-content-center mt-4">
-                <a class="projects-btn__know btn-warning text-white"href="">Saiba mais</a>
-            </div>
-        </div>
         </div>
         <!-- PRICING TABLE END -->
 
 
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="home-about span-ha section-team__title mt-5">
+                        <div class="ha-title mb-0">
+                            <h5>Volteon energia</h5>
+                        </div>
+                        <h3 class="strong text-dark">
+                            Nossa equipe possui centenas de
+                            projetos implementados de geração
+                            de energia e eficiência energética,
+                        </h3>
+                    </div>
+                    <p class="my-4" style="font-style: italic;">
+                        Temos uma visão de futuro para ser referência no mercado da energia,
+                        por meio do incentivo à pesquisa, ensino e a descoberta de novas práticas
+                        inovadoras para a matriz energética.
+                    </p>
+                    <p>
+                        Acreditamos na sustentabilidade como caminho para atuação consciente
+                        em relação aos recursos naturais. A Volteon viabiliza em média 65 mil
+                        toneladas de CO2 retiradas do meio ambiente, consequentemente,
+                        promove a preservação ambiental do nosso País e gera selos ambientais
+                        para as empresas beneficiadas pela energia e exportadoras.
+
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <img src={{ asset('template/img/images/business.png') }} alt="">
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- CONTENT START -->

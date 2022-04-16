@@ -1,8 +1,17 @@
+.header-nav__a{
+    font-family: 'Poppins', sans-serif;
+    font-size: .7rem;
+    text-transform: uppercase;
+}
+
 .about-us{
     background-image: url(../../template/img/images/blur-orange.png);
     background-position-x: 100%;
     padding: .6rem 2rem;
     background-repeat: no-repeat;
+}
+.about-grid__icons{
+    justify-content: center;
 }
 .major-panorama__ul{
     list-style-image: url('../../template/img/images/list.svg') ;
@@ -35,4 +44,16 @@
     padding: .2rem 1rem;
     font-size: 12px;
 
+}
+
+.section-team__title{
+    border-left: 4px solid #FFA600;
+    padding-left: 1rem;
+}
+.section-team__title h5{
+    line-height: unset;
+    margin-bottom:  0px;
+}
+.section-team__title h3{
+    margin-bottom:  0px;
 }
