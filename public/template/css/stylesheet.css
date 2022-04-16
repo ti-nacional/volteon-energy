@@ -775,7 +775,7 @@ footer hr.divider{
 }
 
 .section-title{
-    width: 50%;
+    /* width: 50%; */
     margin: auto auto 1.7rem;
     text-align: center;
 }

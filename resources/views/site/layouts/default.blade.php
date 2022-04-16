@@ -103,23 +103,23 @@
     <!--SLIDER END-->
 
     <!--SERVICES BOXES START-->
-    <div>
+    <section>
         <div class="row">
-            <div class="col-md-4 col-lg-4 content-box"
+            <div class="col-lg-4 content-box"
                 style="background-image: url('../../template/img/images/torres-1.png')">
                 <a href="#" target="_blank">
                     <p>Nós trabalhamos com eficiência
                         energética, inovação e tecnologia.</p>
                 </a>
             </div>
-            <div class="col-md-4 col-lg-4 content-box middle-box"
+            <div class="col-lg-4 content-box middle-box"
                 style="background-image: url('../../template/img/images/moinho.png')">
                 <a href="#" target="_blank">
                     <p>Temos como missão aumentar a
                         energia para o mercado.</p>
                 </a>
             </div>
-            <div class="col-md-4 col-lg-4 content-box"
+            <div class="col-lg-4 content-box"
                 style="background-image: url('../../template/img/images/placas.png')">
                 <a href="#" target="_blank">
                     <p>Acreditamos na energia limpa e
@@ -128,7 +128,7 @@
                 </a>
             </div>
         </div>
-    </div>
+    </section>
     <!--SERVICES BOXES END-->
 
     <!-- CONTENT START -->
@@ -193,322 +193,120 @@
 
     <section>
         <div class="row">
-            <div class="col-lg-6">
-                <img class="img-fluid" src={{asset('template/img/images/eletro.png')}} alt="">
+            <div class="col-lg-6 p-0">
+                <img class="img-fluid" src={{ asset('template/img/images/eletro.png') }} alt="">
             </div>
-            <div class="col-lg-6 mt-5">
+            <div class="col-lg-6 mt-2 pl-5 p-3">
                 <div class="home-about span-ha">
                     <div class="ha-title">
-                    <h5>Panorama geral</h5>
-                    <h2 class="text-dark">
-                        Inovação no setor tecnológico
-                    </h2>
-                    <p class="text-dark">O setor elétrico passa por uma transformação, com crescente verticalização, ou
-                        seja, grupos estão atuando em diversas frentes: distribuição, geração,
-                        transmissão e comercialização. Nesse contexto, as geradoras estão fortalecendo
-                        seus braços de comercialização com fontes renováveis, uma tendência global.</p>
+                        <h5>Panorama geral</h5>
+                        <h2 class="text-dark">
+                            Inovação no setor tecnológico
+                        </h2>
+                        <p class="text-dark mb-3">O setor elétrico passa por uma transformação, com crescente
+                            verticalização, ou
+                            seja, grupos estão atuando em diversas frentes: distribuição, geração,
+                            transmissão e comercialização. Nesse contexto, as geradoras estão fortalecendo
+                            seus braços de comercialização com fontes renováveis, uma tendência global.</p>
                         <ul class="major-panorama__ul">
                             <li>
-                                <p>  A energia solar no Brasil cresceu mais de 212%, alcançando a marca de 2,4
+                                <p class="text-dark"> A energia solar no Brasil cresceu mais de 212%, alcançando a
+                                    marca de 2,4
                                     GIGAWATT instalados (ANEEL);</p>
                             </li>
                             <li>
-                                <p>
+                                <p class="text-dark">
                                     O Índice de Commodities do Banco Central (IC-BR), no que se refere a energia,
-  registrou uma alta de 73,89% no IC-BR em 2021.
+                                    registrou uma alta de 73,89% no IC-BR em 2021.
                                 </p>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
+
+            <div class="col-lg-6 mt-2 d-flex align-items-center pl-5 p-3">
+                <div class="home-about span-ha">
+                    <div class="ha-title">
+
+                        <p class="mb-3">As fontes de energia limpa são essenciais para diversificar a matriz
+                            energética
+                            diminuindo o risco de desabastecimento. </p>
+                        <ul class="major-panorama__ul">
+                            <li>
+                                <p class="text-dark"> Quanto mais dependente de um único recurso maior a chance de
+                                    falta de energia
+                                    e a compra de opções caras de eletricidade; </p>
+                            </li>
+                            <li>
+                                <p class="text-dark">
+                                    87% dos investimentos privados são em energias renováveis.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 p-0">
+                <img class="img-fluid" src={{ asset('template/img/images/torre.png') }} alt="">
+            </div>
         </div>
     </section>
 
     <!-- PRICING TABLE START -->
     <section>
-        <div class="container">
+        <div class="mt-5">
             <div class="section-title">
-                <h2>Our Pricing</h2>
-                <p>We specialise in intelligent & effective Search and believes in the power of partnerships to grow
-                    business.</p>
+                <h2>Nossos Serviços</h2>
+                <p class="text-dark">Nossos profissionais atuam no setor elétrico há mais de 20 anos tendo como<br>
+                    foco principal a busca da autonomia energética de empresas, através da geração de Energias
+                    Renováveis.</p>
             </div>
-            <div class="row">
-                <div class="col-md-4 col-lg-4">
-                    <div class="shadow-pricing-table">
-                        <div class="table-header">
-                            <h3>Basic</h3>
-                            <div class="pt-price">
-                                <span class="pt-currency">$</span>
-                                <span class="pt-value">30</span>
-                                <span class="pt-duration">mo</span>
-                            </div>
-                        </div>
-                        <ul class="pricing-features">
-                            <li><strong>50GB</strong> Disk Space</li>
-                            <li><strong>30GB</strong> Monthly Bandwith</li>
-                            <li><strong>20</strong> Email Accounts</li>
-                            <li><strong>Unlimited</strong> Subdomains</li>
-                            <li><strong>10</strong> Websites</li>
-                            <li><strong>24/7</strong> Support</li>
-                        </ul>
-                        <a class="btn btn-custom" href="#" role="button">BUY NOW</a>
-                    </div>
+            <div class="row justify-content-center">
+                <div class="col-md-3 services-card d-flex align-items-center flex-column col-lg-2">
+                    <img class="services-card__img" src={{ asset('template/img/images/energetic.svg') }} alt="">
+                    <p class="services-card__subtitle">Gestão<br> enegética</p>
                 </div>
-                <div class="col-md-4 col-lg-4 shadow-center-table">
-                    <div class="shadow-pricing-table">
-                        <div class="table-header">
-                            <h3>Standard</h3>
-                            <div class="pt-price">
-                                <span class="pt-currency">$</span>
-                                <span class="pt-value">60</span>
-                                <span class="pt-duration">mo</span>
-                            </div>
-                        </div>
-                        <ul class="pricing-features">
-                            <li><strong>50GB</strong> Disk Space</li>
-                            <li><strong>30GB</strong> Monthly Bandwith</li>
-                            <li><strong>20</strong> Email Accounts</li>
-                            <li><strong>Unlimited</strong> Subdomains</li>
-                            <li><strong>10</strong> Websites</li>
-                            <li><strong>24/7</strong> Support</li>
-                        </ul>
-                        <a class="btn btn-custom" href="#" role="button">BUY NOW</a>
-                    </div>
+                <div class="col-md-3 services-card d-flex align-items-center flex-column col-lg-2">
+                    <img class="services-card__img" src={{ asset('template/img/images/auditoria.svg') }} alt="">
+                    <p class="services-card__subtitle">Auditoria
+                        Energética</p>
                 </div>
-                <div class="col-md-4 col-lg-4">
-                    <div class="shadow-pricing-table">
-                        <div class="table-header">
-                            <h3>Premium</h3>
-                            <div class="pt-price">
-                                <span class="pt-currency">$</span>
-                                <span class="pt-value">90</span>
-                                <span class="pt-duration">mo</span>
-                            </div>
-                        </div>
-                        <ul class="pricing-features">
-                            <li><strong>50GB</strong> Disk Space</li>
-                            <li><strong>30GB</strong> Monthly Bandwith</li>
-                            <li><strong>20</strong> Email Accounts</li>
-                            <li><strong>Unlimited</strong> Subdomains</li>
-                            <li><strong>10</strong> Websites</li>
-                            <li><strong>24/7</strong> Support</li>
-                        </ul>
-                        <a class="btn btn-custom" href="#" role="button">BUY NOW</a>
-                    </div>
+                <div class="col-md-3 services-card d-flex align-items-center flex-column col-lg-2">
+                    <img class="services-card__img" src={{ asset('template/img/images/consultoria.svg') }} alt="">
+                    <p class="services-card__subtitle">Consultoria<br>
+                        Energética</p>
+                </div>
+                <div class="col-md-3 services-card d-flex align-items-center flex-column col-lg-2">
+                    <img class="services-card__img" src={{ asset('template/img/images/consultoria-1.svg') }} alt="">
+                    <p class="services-card__subtitle">Consultoria<br>
+                        Regulatória</p>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-3">
+                <div class="col-md-3 services-card d-flex align-items-center flex-column col-lg-2">
+                    <img class="services-card__img" src={{ asset('template/img/images/comercial.svg') }} alt="">
+                    <p class="services-card__subtitle">Comercialização de Energia</p>
+                </div>
+                <div class="col-md-3 services-card d-flex align-items-center flex-column col-lg-2">
+                    <img class="services-card__img" src={{ asset('template/img/images/aluguel.svg') }} alt="">
+                    <p class="services-card__subtitle">Aluguel de<br> Equipamentos
+                        </p>
+                </div>
+                <div class="col-md-3 services-card d-flex align-items-center flex-column col-lg-2">
+                    <img class="services-card__img" src={{ asset('template/img/images/venda.svg') }} alt="">
+                    <p class="services-card__subtitle">Venda de<br> Equipamentos</p>
+                </div>
+                <div class="col-md-3 services-card d-flex align-items-center flex-column col-lg-2">
+                    <img class="services-card__img" src={{ asset('template/img/images/pesquisa.svg') }} alt="">
+                    <p class="services-card__subtitle">Pesquisa,
+                        Desenvolvimento e
+                        Inovação</p>
                 </div>
             </div>
         </div>
         <!-- PRICING TABLE END -->
 
-        <!-- GRID GALLERY START -->
-        <div class="container-fluid">
-            <div class="row grid-boxes">
-                <div class="col-md-6 col-lg-6 col-xl-3 grid-col">
-                    <div class="grid-gallery-info">
-                        <figure class="ggi-icon"><img src="img/master/solar-panel.svg" alt=""></figure>
-                        <h3>Solar Panels</h3>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                            suffered alteration in some form.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-6 grid-col">
-                    <figure class="grid-gallery-thumb">
-                        <div class="ggt-caption">
-                            <h3>Renewable Energy</h3>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                suffered</p>
-                            <h5><a href="#">Read More</a></h5>
-                        </div>
-                    </figure>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-3 grid-col">
-                    <div class="grid-gallery-info">
-                        <figure class="ggi-icon"><img src="img/master/eolic-energy.svg" alt=""></figure>
-                        <h3>Eolic Energy</h3>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                            suffered alteration in some form.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-6 grid-col">
-                    <figure class="grid-gallery-thumb-2">
-                        <div class="ggt-caption">
-                            <h3>Save Energy Save Life</h3>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority
-                                suffered. </p>
-                            <h5><a href="#">Read More</a></h5>
-                        </div>
-                    </figure>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-3 grid-col">
-                    <div class="grid-gallery-info">
-                        <figure class="ggi-icon"><img src="img/master/atom.svg" alt=""></figure>
-                        <h3>Nuclear Power</h3>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                            suffered alteration in some form.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-3 grid-col">
-                    <div class="grid-gallery-info">
-                        <figure class="ggi-icon"><img src="img/master/flash.svg" alt=""></figure>
-                        <h3>Electric Power</h3>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                            suffered alteration in some form.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- GRID GALLERY END -->
-
-        <!-- TEAM START -->
-        <div class="container">
-            <div class="section-title">
-                <h2>Our Team</h2>
-                <p>We specialise in intelligent & effective Search and believes in the power of partnerships to grow
-                    business.</p>
-            </div>
-            <div class="team-carousel slider hover-effects image-hover">
-                <div class="slide">
-                    <div class="team-portrait">
-                        <figure class="tp-headshot"><img src="https://via.placeholder.com//992x1300" alt="">
-                        </figure>
-                        <div class="tp-caption">
-                            <div class="inner-tp-caption">
-                                <h3>John Doe</h3>
-                                <p>Construction</p>
-                                <div class="tp-social">
-                                    <div class="social-icon">
-                                        <p><a href="#"><i class="fab fa-facebook-f"></i></a></p>
-                                    </div>
-                                    <div class="social-icon">
-                                        <p><a href="#"><i class="fab fa-twitter"></i></a></p>
-                                    </div>
-                                    <div class="social-icon">
-                                        <p><a href="#"><i class="fab fa-linkedin-in"></i></a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="slide">
-                    <div class="team-portrait">
-                        <figure class="tp-headshot"><img src="https://via.placeholder.com//992x1300" alt="">
-                        </figure>
-                        <div class="tp-caption">
-                            <div class="inner-tp-caption">
-                                <h3>Laura Smith</h3>
-                                <p>Engineer</p>
-                                <div class="tp-social">
-                                    <div class="social-icon">
-                                        <p><a href="#"><i class="fab fa-facebook-f"></i></a></p>
-                                    </div>
-                                    <div class="social-icon">
-                                        <p><a href="#"><i class="fab fa-twitter"></i></a></p>
-                                    </div>
-                                    <div class="social-icon">
-                                        <p><a href="#"><i class="fab fa-linkedin-in"></i></a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="slide">
-                    <div class="team-portrait">
-                        <figure class="tp-headshot"><img src="https://via.placeholder.com//992x1300" alt="">
-                        </figure>
-                        <div class="tp-caption">
-                            <div class="inner-tp-caption">
-                                <h3>Ron Johnson</h3>
-                                <p>Mechanical</p>
-                                <div class="tp-social">
-                                    <div class="social-icon">
-                                        <p><a href="#"><i class="fab fa-facebook-f"></i></a></p>
-                                    </div>
-                                    <div class="social-icon">
-                                        <p><a href="#"><i class="fab fa-twitter"></i></a></p>
-                                    </div>
-                                    <div class="social-icon">
-                                        <p><a href="#"><i class="fab fa-linkedin-in"></i></a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="slide">
-                    <div class="team-portrait">
-                        <figure class="tp-headshot"><img src="https://via.placeholder.com//992x1300" alt="">
-                        </figure>
-                        <div class="tp-caption">
-                            <div class="inner-tp-caption">
-                                <h3>Bryan Anderson</h3>
-                                <p>Technician</p>
-                                <div class="tp-social">
-                                    <div class="social-icon">
-                                        <p><a href="#"><i class="fab fa-facebook-f"></i></a></p>
-                                    </div>
-                                    <div class="social-icon">
-                                        <p><a href="#"><i class="fab fa-twitter"></i></a></p>
-                                    </div>
-                                    <div class="social-icon">
-                                        <p><a href="#"><i class="fab fa-linkedin-in"></i></a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="slide">
-                    <div class="team-portrait">
-                        <figure class="tp-headshot"><img src="https://via.placeholder.com//992x1300" alt="">
-                        </figure>
-                        <div class="tp-caption">
-                            <div class="inner-tp-caption">
-                                <h3>Lake Jones</h3>
-                                <p>Marketing</p>
-                                <div class="tp-social">
-                                    <div class="social-icon">
-                                        <p><a href="#"><i class="fab fa-facebook-f"></i></a></p>
-                                    </div>
-                                    <div class="social-icon">
-                                        <p><a href="#"><i class="fab fa-twitter"></i></a></p>
-                                    </div>
-                                    <div class="social-icon">
-                                        <p><a href="#"><i class="fab fa-linkedin-in"></i></a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="slide">
-                    <div class="team-portrait">
-                        <figure class="tp-headshot"><img src="https://via.placeholder.com//992x1300" alt="">
-                        </figure>
-                        <div class="tp-caption">
-                            <div class="inner-tp-caption">
-                                <h3>Sara Thomas</h3>
-                                <p>Marketing</p>
-                                <div class="tp-social">
-                                    <div class="social-icon">
-                                        <p><a href="#"><i class="fab fa-facebook-f"></i></a></p>
-                                    </div>
-                                    <div class="social-icon">
-                                        <p><a href="#"><i class="fab fa-twitter"></i></a></p>
-                                    </div>
-                                    <div class="social-icon">
-                                        <p><a href="#"><i class="fab fa-linkedin-in"></i></a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- TEAM END -->
 
     </section>
     <!-- CONTENT START -->

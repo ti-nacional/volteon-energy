@@ -1,0 +1,17 @@
+<svg id="Componente_15_1" data-name="Componente 15 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72.735" height="72.727" viewBox="0 0 72.735 72.727">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_544" data-name="Retângulo 544" width="72.735" height="72.727" fill="#ffa600"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_535" data-name="Grupo 535" clip-path="url(#clip-path)">
+    <path id="Caminho_50332" data-name="Caminho 50332" d="M28.466,56.929A28.465,28.465,0,1,1,56.93,28.465,28.5,28.5,0,0,1,28.466,56.929m0-54.2A25.733,25.733,0,1,0,54.2,28.465,25.763,25.763,0,0,0,28.466,2.732" transform="translate(0 0.001)" fill="#ffa600"/>
+    <path id="Caminho_50333" data-name="Caminho 50333" d="M171.795,179.359a5.364,5.364,0,0,1-3.82-1.58L148.09,157.893a1.366,1.366,0,1,1,1.932-1.932l19.885,19.886a2.714,2.714,0,0,0,3.839-3.837l-19.018-19.017a1.366,1.366,0,0,1,.967-2.332,1.351,1.351,0,0,1,.965.4l19.018,19.016a5.421,5.421,0,0,1,0,7.667,5.457,5.457,0,0,1-3.882,1.616" transform="translate(-104.529 -106.632)" fill="#ffa600"/>
+    <path id="Caminho_50334" data-name="Caminho 50334" d="M40.611,119.146a1.366,1.366,0,0,1,0-2.733H71.872a1.366,1.366,0,1,1,0,2.733Z" transform="translate(-27.776 -82.393)" fill="#ffa600"/>
+    <path id="Caminho_50335" data-name="Caminho 50335" d="M53.369,101.605A1.367,1.367,0,0,1,52,100.238V94.1a1.366,1.366,0,1,1,2.733,0v6.142a1.367,1.367,0,0,1-1.367,1.367" transform="translate(-36.806 -65.63)" fill="#ffa600"/>
+    <path id="Caminho_50336" data-name="Caminho 50336" d="M73.731,86.786a1.367,1.367,0,0,1-1.367-1.367V73.158a1.367,1.367,0,0,1,2.734,0V85.419a1.367,1.367,0,0,1-1.367,1.367" transform="translate(-51.217 -50.811)" fill="#ffa600"/>
+    <path id="Caminho_50337" data-name="Caminho 50337" d="M134.827,74.575a1.367,1.367,0,0,1-1.366-1.367V55.9a1.366,1.366,0,0,1,2.733,0v17.3a1.367,1.367,0,0,1-1.367,1.367" transform="translate(-94.459 -38.601)" fill="#ffa600"/>
+    <path id="Caminho_50338" data-name="Caminho 50338" d="M114.462,90.146a1.367,1.367,0,0,1-1.367-1.367V77.9a1.366,1.366,0,0,1,2.733,0V88.779a1.367,1.367,0,0,1-1.366,1.367" transform="translate(-80.045 -54.171)" fill="#ffa600"/>
+    <path id="Caminho_50339" data-name="Caminho 50339" d="M94.1,96.329a1.367,1.367,0,0,1-1.367-1.367V86.641a1.366,1.366,0,1,1,2.733,0v8.321A1.367,1.367,0,0,1,94.1,96.329" transform="translate(-65.631 -60.354)" fill="#ffa600"/>
+  </g>
+</svg>
