@@ -257,7 +257,7 @@
     </section>
 
     <!-- PRICING TABLE START -->
-    <section>
+    <section class="mb-5">
         <div class="mt-5">
             <div class="section-title">
                 <h2>Nossos Serviços</h2>
@@ -380,6 +380,25 @@
                 <div class="col-lg-6">
                     <img src={{ asset('template/img/images/business.png') }} alt="">
                 </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="contact-card row">
+                <div class="col-lg-6">
+                    <div class="home-about span-ha contact-card__title">
+                        <div class="ha-title mb-0">
+                            <h5>Contato</h5>
+                        </div>
+                        <h3 class="strong text-dark" style="    font-size: 87%;">
+                            Ficou com dúvidas? Preencha os campos ao lado
+                            que um especialista entrará em contato com você!
+
+                        </h3>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
