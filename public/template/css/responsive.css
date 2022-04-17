@@ -690,6 +690,9 @@ sp-space-break{
         justify-content: left !important;
         margin-block: 1rem;
     }
+    .contact-card .contact-card__text::after{
+        width: 100% !important;
+    }
 .fb-copyright{
     float: none;
     margin-bottom: 10px;

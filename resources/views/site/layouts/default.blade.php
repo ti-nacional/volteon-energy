@@ -386,7 +386,7 @@
     <section class="contact">
         <div class="container">
             <div class="contact-card row">
-                <div class="col-lg-6 contact-card__text">
+                <div class="col-lg-6 mr-1 contact-card__text">
                     <div class="home-about span-ha contact-card__title">
                         <div class="ha-title mb-0">
                             <h5>Contato</h5>
@@ -397,6 +397,9 @@
 
                         </h3>
                     </div>
+                </div>
+                <div class="col-6">
+                    <p class="contact-card__mainsub">Temos uma equipe de profissionais especializados no assunto prontos para esclarecer quaisquer dúvidas e te atender com a qualidade que você merece.</p>
                 </div>
                 <div class="card contact-card__form">
                     <div class="card-header">
@@ -414,6 +417,8 @@
                                     Enviar
                                 </button>
                             </div>
+                            <p class="text-dark contact-card__subtitle">responderemos sua mensagem o mais rápido possível.</p>
+
                         </form>
                     </div>
                 </div>

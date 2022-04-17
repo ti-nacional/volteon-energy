@@ -72,7 +72,7 @@ margin-top: 150px;
 }
 .contact-card .contact-card__text::after{
     content: "";
-    width: 800px;
+    width: 170%;
     margin-left: -16px;
     height: 4px;
     display: block;
@@ -81,9 +81,15 @@ margin-top: 150px;
 .contact-card__title h5{
     line-height: unset;
     margin-bottom:  0px;
+    color: #EF551A;
+    font-weight: 300;
 }
 .contact-card__title h3{
     margin-bottom:  0px;
+}
+.contact-card__mainsub{
+    font-size: .5rem;
+    margin-top: 10px;
 }
 
 .contact-card__form{
@@ -141,10 +147,13 @@ margin-top: 150px;
     font-size: .6rem;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
-    padding: .3rem 1rem;
+    padding: .3rem 1.5rem;
     border: none;
     border-radius: 1rem;
     background: rgb(244,55,52);
 background: linear-gradient(90deg, rgba(244,55,52,1) 0%, rgba(254,185,67,1) 100%);
 
+}
+.contact-card__subtitle{
+    font-size: .6rem;
 }
