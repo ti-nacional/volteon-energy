@@ -57,16 +57,23 @@
 .section-team__title h3{
     margin-bottom:  0px;
 }
+.contact{
+    overflow: visible;
+    min-height: 700px;
+
+}
 .contact-card{
     -webkit-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.37);
 box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.37);
 border-radius: 1rem;
 padding-block: 2rem;
+position: relative;
+margin-top: 150px;
 }
-.contact-card .col-lg-6::after{
+.contact-card .contact-card__text::after{
     content: "";
     width: 800px;
-    margin-left: -10px;
+    margin-left: -16px;
     height: 4px;
     display: block;
     background: linear-gradient(90deg, rgba(239,85,26,1) 0%, rgba(243,115,38,1) 30%, rgba(187,186,249,1) 70%, rgba(244,55,52,1) 100%);;
@@ -77,4 +84,67 @@ padding-block: 2rem;
 }
 .contact-card__title h3{
     margin-bottom:  0px;
+}
+
+.contact-card__form{
+    position: absolute !important;
+    right: 5%;
+    top: -50%;
+    border: 0;
+    min-height: 450px;
+    max-width: 520px;
+    padding: 1rem;
+    -webkit-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.2);
+}
+.contact-card__form .card-header{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    border: 0;
+}
+.contact-card__input{
+    width: 48.5%;
+    background-color:#F5F5F6;
+    border: 1px solid #BBBAF9;
+    border-radius: .4rem;
+    padding:.5rem 1rem;
+    font-size: .6rem;
+    font-family: 'Poppins', sans-serif;
+}
+.contact-card__textarea{
+    width: 100%;
+    background-color:#F5F5F6;
+    border: 1px solid #BBBAF9;
+    border-radius: .4rem;
+    padding:.5rem 1rem;
+    font-size: .6rem;
+    margin-top: .4rem;
+    font-family: 'Poppins', sans-serif;
+}
+.contact-card__input::placeholder{
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: .6rem;
+    font-family: 'Poppins', sans-serif;
+}
+.contact-card__textarea::placeholder{
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: .6rem;
+    font-family: 'Poppins', sans-serif;
+}
+.contact-card__submit{
+    color: #fff;
+
+    text-transform: uppercase;
+    font-size: .6rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    padding: .3rem 1rem;
+    border: none;
+    border-radius: 1rem;
+    background: rgb(244,55,52);
+background: linear-gradient(90deg, rgba(244,55,52,1) 0%, rgba(254,185,67,1) 100%);
+
 }

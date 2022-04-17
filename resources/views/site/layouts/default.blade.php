@@ -383,10 +383,10 @@
             </div>
         </div>
     </section>
-    <section>
+    <section class="contact">
         <div class="container">
             <div class="contact-card row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 contact-card__text">
                     <div class="home-about span-ha contact-card__title">
                         <div class="ha-title mb-0">
                             <h5>Contato</h5>
@@ -398,7 +398,25 @@
                         </h3>
                     </div>
                 </div>
-
+                <div class="card contact-card__form">
+                    <div class="card-header">
+                        <img src={{ asset('template/img/images/logo-lg.svg') }} alt="">
+                    </div>
+                    <div class="card-body">
+                        <form action="">
+                            <div class="d-flex justify-content-between">
+                                <input class="contact-card__input" type="text" placeholder="Nome">
+                                <input class="contact-card__input" type="email" placeholder="E-mail">
+                            </div>
+                            <textarea class="contact-card__textarea" placeholder="Sua mensagem"  name="" id="" cols="30" rows="5"></textarea>
+                            <div class="d-flex justify-content-center">
+                                <button class="contact-card__submit">
+                                    Enviar
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
