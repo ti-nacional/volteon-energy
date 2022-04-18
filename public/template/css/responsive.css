@@ -690,11 +690,21 @@ sp-space-break{
         justify-content: left !important;
         margin-block: 1rem;
     }
+    .major-panorama__first,
+    .major-panorama__second{
+        padding-inline: 3rem !important;
+    }
     .contact-card .contact-card__text::after{
         width: 100% !important;
     }
     .contact-card__form{
-        position: relative;
+        position: relative !important;
+        right: 0 !important;
+        box-shadow: none !important;
+        margin: 0 auto;
+    }
+    .contact-card__subtitle{
+        text-align: center;
     }
     .countries {
         display: grid;
