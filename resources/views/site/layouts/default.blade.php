@@ -28,10 +28,11 @@
     <!-- MAIN CSS STYLE SHEET -->
     <link rel="stylesheet" href={{ asset('template/css/navigation.css') }}>
     <link rel="stylesheet" href={{ asset('template/css/stylesheet.css') }}>
-    <link rel="stylesheet" href={{ asset('template/css/responsive.css') }}>
     <link rel="stylesheet" href={{ asset('template/css/slick.min.css') }}>
     <link rel="stylesheet" href={{ asset('template/css/owl.carousel.min.css') }}>
     <link rel="stylesheet" href={{ asset('assets/css/custom.css') }}>
+    <link rel="stylesheet" href={{ asset('template/css/responsive.css') }}>
+
 
     <!-- MODERNIZR LIBRARY -->
     <script src={{ asset('template/js/modernizr-custom.js') }}></script>
@@ -399,7 +400,8 @@
                     </div>
                 </div>
                 <div class="col-6">
-                    <p class="contact-card__mainsub">Temos uma equipe de profissionais especializados no assunto prontos para esclarecer quaisquer dúvidas e te atender com a qualidade que você merece.</p>
+                    <p class="contact-card__mainsub">Temos uma equipe de profissionais especializados no assunto
+                        prontos para esclarecer quaisquer dúvidas e te atender com a qualidade que você merece.</p>
                 </div>
                 <div class="card contact-card__form">
                     <div class="card-header">
@@ -411,16 +413,114 @@
                                 <input class="contact-card__input" type="text" placeholder="Nome">
                                 <input class="contact-card__input" type="email" placeholder="E-mail">
                             </div>
-                            <textarea class="contact-card__textarea" placeholder="Sua mensagem"  name="" id="" cols="30" rows="5"></textarea>
+                            <textarea class="contact-card__textarea" placeholder="Sua mensagem" name="" id="" cols="30" rows="5"></textarea>
                             <div class="d-flex justify-content-center">
                                 <button class="contact-card__submit">
                                     Enviar
                                 </button>
                             </div>
-                            <p class="text-dark contact-card__subtitle">responderemos sua mensagem o mais rápido possível.</p>
+                            <p class="text-dark contact-card__subtitle">responderemos sua mensagem o mais rápido
+                                possível.</p>
 
                         </form>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="states">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nossos Endereços</h2>
+                <p class="text-dark">Nossos profissionais atuam no setor elétrico há mais de 20 anos tendo
+                    como<br>
+                    foco principal a busca da autonomia energética de empresas, através da geração de Energias
+                    Renováveis.</p>
+            </div>
+            <div class="countries">
+                <div class="div1 countries-div__item">
+                    <img height="43,72" width="61,6" src={{ asset('template/img/images/pr.svg') }} alt="">
+                    <strong>PR</strong>
+                    <p>Avenida Anita Garibaldi,<br>
+                        850 Torre 03, Sala 810<br>
+                        Curitiba/PR
+                    </p>
+                    <img src={{ asset('template/img/images/msg.svg') }} alt="">
+                </div>
+                <div class="div2 countries-div__item">
+                    <img height="43,72" width="61,6" src={{ asset('template/img/images/ma.svg') }} alt="">
+                    <strong>MA</strong>
+                    <p>Rua dos Acapus, 23 QD,<br>
+                        Renascença I<br>
+                        São Luís/MA
+                    </p>
+                    <img src={{ asset('template/img/images/msg.svg') }} alt="">
+                </div>
+                <div class="div3 countries-div__item">
+                    <img height="43,72" width="61,6" src={{ asset('template/img/images/go.svg') }} alt="">
+                    <strong>go</strong>
+                    <p>Avenida Jamel Cecilio,
+                        Quadra B-27, S/N,
+                        Goiânia/GO
+                    </p>
+                    <img src={{ asset('template/img/images/msg.svg') }} alt="">
+                </div>
+                <div class="div4 countries-div__item">
+                    <img height="43,72" width="61,6" src={{ asset('template/img/images/sc.svg') }} alt="">
+                    <strong>sc</strong>
+                    <strong class="soon">
+                        Em breve
+                    </strong>
+                    <img src={{ asset('template/img/images/msg.svg') }} alt="">
+                </div>
+                <div class="div5 countries-div__item">
+                    <img height="43,72" width="61,6" src={{ asset('template/img/images/mt.svg') }} alt="">
+                    <strong>mt</strong>
+                    <strong class="soon">
+                        Em breve
+                    </strong>
+                    <img src={{ asset('template/img/images/msg.svg') }} alt="">
+                </div>
+                <div class="div6 countries-div__item">
+                    <img height="43,72" width="61,6" src={{ asset('template/img/images/mg.svg') }} alt="">
+                    <strong>mg</strong>
+                    <strong class="soon">
+                        Em breve
+                    </strong>
+                    <img src={{ asset('template/img/images/msg.svg') }} alt="">
+                </div>
+                <div class="div7 countries-div__item">
+                    <img height="43,72" width="61,6" src={{ asset('template/img/images/ro.svg') }} alt="">
+                    <strong>ro</strong>
+                    <strong class="soon">
+                        Em breve
+                    </strong>
+                    <img src={{ asset('template/img/images/msg.svg') }} alt="">
+                </div>
+                <div class="div8 countries-div__item">
+
+                    <img height="43,72" width="61,6" src={{ asset('template/img/images/pe.svg') }} alt="">
+                    <strong>pe</strong>
+                    <strong class="soon">
+                        Em breve
+                    </strong>
+                    <img src={{ asset('template/img/images/msg.svg') }} alt="">
+                </div>
+                <div class="div9 countries-div__item">
+                    <img height="43,72" width="61,6" src={{ asset('template/img/images/sp.svg') }} alt="">
+                    <strong>sp</strong>
+                    <strong class="soon">
+                        Em breve
+                    </strong>
+                    <img src={{ asset('template/img/images/msg.svg') }} alt="">
+                </div>
+                <div class="div10 countries-div__item">
+                    <img height="43,72" width="61,6" src={{ asset('template/img/images/ms.svg') }} alt="">
+                    <strong>ms</strong>
+                    <strong class="soon">
+                        Em breve
+                    </strong>
+                    <img src={{ asset('template/img/images/msg.svg') }} alt="">
                 </div>
             </div>
         </div>
