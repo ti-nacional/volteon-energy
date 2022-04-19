@@ -195,7 +195,7 @@
     </section>
     <!-- HOME ABOUT END -->
 
-    <section>
+    <section id="about">
         <div class="row">
             <div class="col-lg-6 p-0">
                 <img class="img-fluid" src={{ asset('template/img/images/eletro.png') }} alt="">
@@ -258,7 +258,7 @@
     </section>
 
     <!-- PRICING TABLE START -->
-    <section class="mb-5">
+    <section id="services" class="mb-5">
         <div class="mt-5">
             <div class="section-title">
                 <h2>Nossos Serviços</h2>
@@ -313,7 +313,7 @@
 
 
     </section>
-    <section class="projects">
+    <section id="projects">
         <div class="mt-5 container">
             <div class="section-title">
                 <h2 class="text-white">Projetos</h2>
@@ -342,7 +342,7 @@
                     <img class="img-fluid" src={{ asset('template/img/images/p-6.png') }} alt="">
                 </div>
                 <div class="col-12 d-flex justify-content-center mt-4">
-                    <a class="projects-btn__know btn-warning text-white" href="">Saiba mais</a>
+                    <a class="projects-btn__know btn-warning text-white" href="https://www.instagram.com/volteonenergia/" target="_blank">Saiba mais</a>
                 </div>
             </div>
         </div>
@@ -384,7 +384,7 @@
             </div>
         </div>
     </section>
-    <section class="contact">
+    <section id="contact">
         <div class="container">
             <div class="contact-card row">
                 <div class="col-lg-6 mr-1 contact-card__text">
@@ -445,7 +445,9 @@
                         850 Torre 03, Sala 810<br>
                         Curitiba/PR
                     </p>
-                    <img src={{ asset('template/img/images/msg.svg') }} alt="">
+              <a href="#contact">
+                        <img src={{ asset('template/img/images/msg.svg') }} alt="">
+              </a>
                 </div>
                 <div class="div2 countries-div__item">
                     <img height="43,72" width="61,6" src={{ asset('template/img/images/ma.svg') }} alt="">
@@ -454,7 +456,9 @@
                         Renascença I<br>
                         São Luís/MA
                     </p>
-                    <img src={{ asset('template/img/images/msg.svg') }} alt="">
+              <a href="#contact">
+                        <img src={{ asset('template/img/images/msg.svg') }} alt="">
+              </a>
                 </div>
                 <div class="div3 countries-div__item">
                     <img height="43,72" width="61,6" src={{ asset('template/img/images/go.svg') }} alt="">
@@ -463,7 +467,9 @@
                         Quadra B-27, S/N,
                         Goiânia/GO
                     </p>
-                    <img src={{ asset('template/img/images/msg.svg') }} alt="">
+              <a href="#contact">
+                        <img src={{ asset('template/img/images/msg.svg') }} alt="">
+              </a>
                 </div>
                 <div class="div4 countries-div__item">
                     <img height="43,72" width="61,6" src={{ asset('template/img/images/sc.svg') }} alt="">
@@ -471,7 +477,9 @@
                     <strong class="soon">
                         Em breve
                     </strong>
-                    <img src={{ asset('template/img/images/msg.svg') }} alt="">
+              <a href="#contact">
+                        <img src={{ asset('template/img/images/msg.svg') }} alt="">
+              </a>
                 </div>
                 <div class="div5 countries-div__item">
                     <img height="43,72" width="61,6" src={{ asset('template/img/images/mt.svg') }} alt="">
@@ -479,7 +487,9 @@
                     <strong class="soon">
                         Em breve
                     </strong>
-                    <img src={{ asset('template/img/images/msg.svg') }} alt="">
+              <a href="#contact">
+                        <img src={{ asset('template/img/images/msg.svg') }} alt="">
+              </a>
                 </div>
                 <div class="div6 countries-div__item">
                     <img height="43,72" width="61,6" src={{ asset('template/img/images/mg.svg') }} alt="">
@@ -487,7 +497,9 @@
                     <strong class="soon">
                         Em breve
                     </strong>
-                    <img src={{ asset('template/img/images/msg.svg') }} alt="">
+              <a href="#contact">
+                        <img src={{ asset('template/img/images/msg.svg') }} alt="">
+              </a>
                 </div>
                 <div class="div7 countries-div__item">
                     <img height="43,72" width="61,6" src={{ asset('template/img/images/ro.svg') }} alt="">
@@ -495,7 +507,9 @@
                     <strong class="soon">
                         Em breve
                     </strong>
-                    <img src={{ asset('template/img/images/msg.svg') }} alt="">
+              <a href="#contact">
+                        <img src={{ asset('template/img/images/msg.svg') }} alt="">
+              </a>
                 </div>
                 <div class="div8 countries-div__item">
 
@@ -504,7 +518,9 @@
                     <strong class="soon">
                         Em breve
                     </strong>
-                    <img src={{ asset('template/img/images/msg.svg') }} alt="">
+              <a href="#contact">
+                        <img src={{ asset('template/img/images/msg.svg') }} alt="">
+              </a>
                 </div>
                 <div class="div9 countries-div__item">
                     <img height="43,72" width="61,6" src={{ asset('template/img/images/sp.svg') }} alt="">
@@ -512,7 +528,9 @@
                     <strong class="soon">
                         Em breve
                     </strong>
-                    <img src={{ asset('template/img/images/msg.svg') }} alt="">
+              <a href="#contact">
+                        <img src={{ asset('template/img/images/msg.svg') }} alt="">
+              </a>
                 </div>
                 <div class="div10 countries-div__item">
                     <img height="43,72" width="61,6" src={{ asset('template/img/images/ms.svg') }} alt="">
@@ -520,7 +538,9 @@
                     <strong class="soon">
                         Em breve
                     </strong>
-                    <img src={{ asset('template/img/images/msg.svg') }} alt="">
+              <a href="#contact">
+                        <img src={{ asset('template/img/images/msg.svg') }} alt="">
+              </a>
                 </div>
             </div>
         </div>
