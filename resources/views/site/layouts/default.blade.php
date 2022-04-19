@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- TITLE -->
-    <title>Indusy - Industrial & Factory Solutions HTML Template</title>
+    <title>Volteon</title>
 
     <!-- META TAGS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
