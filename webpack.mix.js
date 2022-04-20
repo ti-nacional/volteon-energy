@@ -11,7 +11,11 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
-    .postCss('resources/css/app.css', 'public/css', [
-        //
-    ]);
+require('laravel-mix-purgecss');
+
+mix.postCss('public/assets/site/css/colors.css', 'assets/site/css')
+    .postCss('public/assets/site/css/components.css', 'assets/site/css')
+    .postCss('public/assets/site/css/style.css', 'assets/site/css')
+    .purgeCss({
+        enabled: true,
+    });
