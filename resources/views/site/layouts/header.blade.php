@@ -25,7 +25,7 @@
                         </ul>
                         <ul class="header-nav__socials mb-0">
                             <li>
-                                <a href="https://www.facebook.com/search/top?q=volteon%20energia" target="_blank">
+                                <a href="https://www.facebook.com/Volteon-Energia-111103278235912" target="_blank">
                                     <img src={{asset('template/img/images/facebook.svg')}} alt="Ins">
                                 </a>
                             </li>
