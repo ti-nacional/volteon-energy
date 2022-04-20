@@ -408,12 +408,13 @@
                         <img src={{ asset('template/img/images/logo-lg.svg') }} alt="">
                     </div>
                     <div class="card-body">
-                        <form action="">
+                        <form action="/" method="POST">
+                            @csrf
                             <div class="d-flex justify-content-between">
-                                <input class="contact-card__input" type="text" placeholder="Nome">
-                                <input class="contact-card__input" type="email" placeholder="E-mail">
+                                <input class="contact-card__input" name="nameInput" type="text" placeholder="Nome">
+                                <input class="contact-card__input" name="emailInput" type="email" placeholder="E-mail">
                             </div>
-                            <textarea class="contact-card__textarea" placeholder="Sua mensagem" name="" id="" cols="30" rows="5"></textarea>
+                            <textarea class="contact-card__textarea" placeholder="Sua mensagem" name="mensagemInput" id="" cols="30" rows="5"></textarea>
                             <div class="d-flex justify-content-center">
                                 <button class="contact-card__submit">
                                     Enviar
