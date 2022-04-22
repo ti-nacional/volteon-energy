@@ -269,7 +269,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-3 services-card d-flex align-items-center flex-column col-lg-2">
                     <img class="services-card__img" src={{ asset('template/img/images/energetic.svg') }} alt="">
-                    <p class="services-card__subtitle">Gestão<br> enegética</p>
+                    <p class="services-card__subtitle">Gestão<br> de Energia Renovável</p>
                 </div>
                 <div class="col-md-3 services-card d-flex align-items-center flex-column col-lg-2">
                     <img class="services-card__img" src={{ asset('template/img/images/auditoria.svg') }} alt="">
