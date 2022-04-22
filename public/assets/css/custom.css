@@ -34,7 +34,7 @@
     margin-top: 16px;
     text-align: center;
 }
-.projects{
+#projects{
     background-image: url(../../template/img/images/banner-projects.png)
 }
 
@@ -42,7 +42,7 @@
     background-color: #FFA600;
     font-family: 'Poppins', sans-serif;
     padding: .2rem 1rem;
-    font-size: 12px;
+    font-size: 15px;
 
 }
 
@@ -59,7 +59,7 @@
 }
 #contact{
     overflow: visible;
-    min-height: 400px;
+    min-height: 640px;
     display: flex;
 
 }
@@ -89,14 +89,14 @@ margin-top: 150px;
     margin-bottom:  0px;
 }
 .contact-card__mainsub{
-    font-size: .5rem;
+    font-size: .6rem;
     margin-top: 10px;
 }
 
 .contact-card__form{
     position: absolute !important;
     right: 5%;
-    top: -50%;
+    top: -33%;
     border: 0;
     min-height: 450px;
     max-width: 520px;
@@ -143,6 +143,7 @@ margin-top: 150px;
 }
 .contact-card__submit{
     color: #fff;
+    margin-block: 1rem;
 
     text-transform: uppercase;
     font-size: .6rem;
@@ -157,6 +158,7 @@ background: linear-gradient(90deg, rgba(244,55,52,1) 0%, rgba(254,185,67,1) 100%
 }
 .contact-card__subtitle{
     font-size: .6rem;
+    /* margin-top: 1rem; */
 }
 .countries {
     display: grid;

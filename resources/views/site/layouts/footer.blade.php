@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row justify-content-between">
             <div class="col-lg-4">
-                <img width="70%"src={{asset('template/img/images/logo.svg')}} alt="">
+                <img class="mb-2" width="70%"src={{asset('template/img/images/logo.svg')}} alt="">
                 <p class="text-white">Especializados em trazer soluções
                     em geração de energias limpas.</p>
             </div>

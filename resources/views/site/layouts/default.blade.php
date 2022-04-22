@@ -200,7 +200,7 @@
             <div class="col-lg-6 p-0">
                 <img class="img-fluid" src={{ asset('template/img/images/eletro.png') }} alt="">
             </div>
-            <div class="col-lg-6 mt-2 major-panorama__first pl-5 p-3">
+            <div class="col-lg-6 mt-2 major-panorama__first px-5 pt-3">
                 <div class="home-about span-ha">
                     <div class="ha-title">
                         <h5>Panorama geral</h5>
@@ -229,7 +229,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-6 mt-2 d-flex align-items-center major-panorama__second pl-5 p-3">
+            <div class="col-lg-6 mt-2 d-flex align-items-center major-panorama__second px-5 p-3">
                 <div class="home-about span-ha">
                     <div class="ha-title">
 
@@ -393,10 +393,10 @@
                             <h5>Contato</h5>
                         </div>
                         <h3 class="strong text-dark" style="    font-size: 87%;">
-                            Ficou com dúvidas? Preencha os campos ao lado
-                            que um especialista entrará em contato com você!
-
+                            Ficou com dúvidas? 
                         </h3>
+                        <p class="text-dark">Preencha os campos ao lado
+                            que um especialista entrará em contato com você!</p>
                     </div>
                 </div>
                 <div class="col-lg-6">
