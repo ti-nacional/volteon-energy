@@ -17,13 +17,22 @@
         content="agricultural, business, chemical, construction, energy, engineering, gas, industrial, industries, manufacturing, material, mechanical, oil, petroleum">
 
     <!--  FAVICON  -->
-    <link rel="shortcut icon" href="img/master/favicon.png">
+    <link rel="shortcut icon" href={{asset('template/img/images/favicon.svg')}}>
 
     <!-- BOOTSTRAP FRAMEWORK STYLES -->
     <link rel="stylesheet" href={{ asset('template/css/bootstrap.min.css') }}>
 
     <!-- FONT AWESOME ICONS LIBRARY -->
     <link rel="stylesheet" href="fonts/css/all.min.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QMYGSVV94D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QMYGSVV94D');
+</script>
 
     <!-- MAIN CSS STYLE SHEET -->
     <link rel="stylesheet" href={{ asset('template/css/navigation.css') }}>
@@ -473,11 +482,11 @@
               </a>
                 </div>
                 <div class="div4 countries-div__item">
-                    <img height="43,72" width="61,6" src={{ asset('template/img/images/sc.svg') }} alt="">
-                    <strong>sc</strong>
-                    <strong class="soon">
-                        Em breve
-                    </strong>
+                    <img height="43,72" width="61,6" src={{ asset('template/img/images/sp.svg') }} alt="">
+                    <strong>sp</strong>
+                   <p>Av. Engenheiro Luís<br> Carlos Berrini, 1748,<br>
+                    São Paulo/SP
+                   </p>
               <a href="#contact">
                         <img src={{ asset('template/img/images/msg.svg') }} alt="">
               </a>
@@ -524,8 +533,8 @@
               </a>
                 </div>
                 <div class="div9 countries-div__item">
-                    <img height="43,72" width="61,6" src={{ asset('template/img/images/sp.svg') }} alt="">
-                    <strong>sp</strong>
+                    <img height="43,72" width="61,6" src={{ asset('template/img/images/sc.svg') }} alt="">
+                    <strong>sc</strong>
                     <strong class="soon">
                         Em breve
                     </strong>
